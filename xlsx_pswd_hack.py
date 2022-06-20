@@ -29,7 +29,7 @@ pass_char_number_start = 1
 pass_char_number_stop = 5
 
 #FILE
-location = 'C:\\abc.xlsx'
+location = '\\input\\abc.xlsx'
 
 # optional, manual string
 #list_string = "930"
