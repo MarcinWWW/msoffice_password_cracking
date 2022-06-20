@@ -26,7 +26,7 @@ charset_start = 0
 charset_stop = 35
 
 pass_char_number_start = 1
-pass_char_number_stop = 5
+pass_char_number_stop = 4
 
 #FILE
 location = '\\input\\abc.xlsx'
