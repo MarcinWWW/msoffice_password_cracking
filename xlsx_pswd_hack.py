@@ -13,9 +13,9 @@ def getListString(charset_start, charset_stop):
 		ls = ls + str(ad.getChar(item))
 	return ls
 
-def getListOfVariations(ls, c_num):
+def getListOfVariations(ls, c_num_start, c_num_stop):
 	l = []
-	for i in range(1, int(c_num) + 1, 1):
+	for i in range(int(c_num_start), int(c_num_stop) + 1, 1):
 		l.extend(["".join(item) for item in product(ls, repeat=i)])
 	
 	return l
